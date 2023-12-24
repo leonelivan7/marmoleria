@@ -1,305 +1,115 @@
-    /* ESTILOS GENERALES */
-    * {
-        margin: 0;
-        padding: 0;
-        /* PARA QUE MANTENGA LA MEDIDA */
-        box-sizing: border-box;
-    }
+/* ESTILOS GENERALES */
 
-    /* BODY */
-    /* IMAGEN DE FONDO */
-    body {
-        background-image: url(../medios/fondo-marmol.jpg);
-        background-repeat: none;
-        background-position: center;
-        background-size: 100%;
-    }
-
-    /* HEADER */
-    header {
-        background-color: black;
-        color: white;
-    }
-
-    .menú {
-        text-align: center;
-    }
-
-    .menu-icon {
-        background-image: url(../medios/hamburguer-menu.svg);
-    }
-/* 
-    @media screen and (max-width: 991px){
-        .headerheader{
-            position: absolute;
-            top: 56px;
-            z-index: 2;
-            width: 100vw;
-            background-color: black;
-            }
-    } */
-
-    .headerheader {
-        padding-left: 0;
-    }
-
-    /* header {
-        z-index: 1;
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2%;
-        position: fixed;
-    } */
-
-    /* LOGO DE LA PÁGINA */
-    /* header img {
-        padding: 2%;
-        width: 20%;
-        height: 20%;
-    } */
-
-    /* header nav ul {
-        list-style: none;
-    } */
-
-    /* header nav ul li {
-        text-align: center;
-        text-decoration: none;
-    } */
-
-    /* header nav ul li a {
-        text-decoration: none;
-        color: white;
-    } */
-
-    /* MAIN */
-
-    /* TÍTULOS */
-
-    main h1 {
-        text-align: center;
-        color: black;
-        padding-top: 5%;
-        padding-left: 0%;
-        text-decoration: underline;
-    }
-
-    /* main h2 {
-    text-align: center;
-} */
-
-    main section h2 {
-        text-decoration: underline;
-    }
-
-    main section {
-        z-index: 0;
-        /* text-align: center; */
-    }
-
-    /* MAIN INICIO */
-    /* .main-inicio {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-    } */
-
-    /* .img-carrusel {
-        width: 90vw;
-        height: 90vw;
-        padding: 5%;
-    } */
-
-    /* .main-inicio .section-inicio {
-    display: inline-block;
-} */
-
-    /* .div-inicio {
-        display: block;
-        justify-content: center;
-    }
-
-    .div-inicio h1 {
-        padding: 10%;
-        margin-left: 23%;
-    }
-
-    .section-inicio h1 {
-        text-align: center;
-    }
-
-    .cards a img {
-        width: 90%;
-        height: 90%;
-        object-fit: cover;
-    } */
-
-    /* MAIN CATÁLOGO */
-    /* .main-catalogo {
-        display: grid;
-        grid-template-columns: 4fr;
-        grid-template-rows: 1fr;
-        flex-direction: column;
-        padding: 5%;
-        text-align: center;
-    }
-
-    .section-catalogo {
-        justify-content: center;
-    }
-
-    .div-catalogo {
-        display: grid;
-    }
-
-    .div-catalogo img {
-        width: 70%;
-        height: 100%;
-        object-fit: cover;
-    } */
-
-    /* MAIN GALERIA */
-    /* .main-galeria {
-        justify-content: center;
-    } */
-
-    /* .div-galeria img {
-        width: 300px;
-        height: 300px;
-        margin-left: 5%;
-        display: inline-flex;
-        padding: 1% 0% 1% 0%;
-        justify-content: center;
-        object-fit: cover;
-    } */
-
-    /* MAIN NOSOTROS */
-    /* .main-nosotros {
-        padding: 0% 13% 5% 13%;
-    } */
-
-    /* MAIN CONTACTO */
-    /* .main-contacto {
-        text-align: center;
-    }
-
-    .section-contacto {
-        text-align: center;
-    }
-
-    .section-contacto input {
-        border-radius: 5px;
-        text-align: center;
-    }
-
-    .section-contacto label {
-        text-align: center;
-        display: block;
-        padding: 1%;
-    }
-
-    .section-contacto input {
-        color: black;
-    } */
-
-    /* .main-contacto .mapa-de-contacto {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 50%;
-    padding: 5% 5% 5% 5%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.main-contacto .mapa-de-contacto h2 {
+header {
+    background-color: black;
+}
+
+.dropdown-menu {
     text-align: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+main {
+    background-image: url(../medios/fondo-marmol.jpg);
+}
+
+/* MAIN INICIO */
+
+.img-inicio {
+    height: 500px;
+    object-fit: cover;
+}
+
+.cards img {
+    object-fit: cover;
+}
+
+/* MAIN GALERIA */
+
+.img-galeria {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* MAIN CONTACTO */
+
+.section-contacto div {
+    padding: 1%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+.mapa-contacto {
+    width: 90%;
+    padding: 5%;
+}
+
+/* MAIN CATÁLOGO */
+
+.img-catalogo {
+    border: solid 1px black;
+    text-align: center;
+}
+
+/* .cataloguito {
+    display: flex;
+    justify-content: center;
 } */
 
-    /* IMAGEN DE FONDO */
-    main section img {
-        position: relative;
-        margin-left: 25%;
-    }
+.text-catalogo {
+    margin-bottom: 0;
+}
 
-    /* border-radius: 15px 0px 15px 0px;
-    POR SI LA IMAGEN SOBRESALE DE LA CURVA
-    overflow: hidden;
-    padding-top: 3%; padding-bottom: 3%; */
+/* MAIN NOSOTROS */
 
+.section-nosotros {
+    text-align: center;
+}
 
-    /* FOOTER */
-    footer {
-        color: white;
-        background-color: black;
-        padding: 1%;
-    }
+.texto-bottom {
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
 
-    footer section div {
-        /* display: inline-block; */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-abajo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.redes-sociales {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+}
+
+/* MEDIA QUERIES */
+
+/* MAIN CATÁLOGO */
+
+@media (min-width:992px) {
+    .div-catalogo div {
         display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 5%;
-        padding: 2%;
+        align-items: center;
+        font-size: large;
     }
-
-    .redes-sociales img {
-        position: fixed;
-        right: 15px;
-        bottom: 15px;
-    }
-
-    /* Para acomodar las cajitas de en linea a en bloque usamos:
-flex-direction: row; o column-reverse para invertir las cajitas
-Para mantener la misma medida en las cajitas (se acomodan abajo):
-flex-wrap:wrap;
-En vez de usar flex-direction y flex-wrap puedo simplificarlo con un flex-flow
-En vez de margin puedo usar gap:; para que se separar las cajitas por columna y por fila
-o por separado seria row-gap y column-gap
-Para acomodar las cajitas en el centro uso justify-content:center; justify-content:space-evenly; para que esten separadas uniforme 
-entre el margen y las cajitas 
-Para acomodar las cajitas en vertical usamos aling-items:center; */
-
-    /* Media Queries desde mobile hacia desktop - tablet*/
-    @media (min-width: 768px) {
-        /* header {
-            flex-direction: row;
-        }
-
-        header img {
-            width: 10%;
-            height: 10%;
-        }
-
-        header nav ul {
-            display: flex;
-            column-gap: 10px;
-        }
-
-        .div-inicio {
-            display: inline-block;
-        } */
-
-        footer section {
-            display: flex;
-            flex-direction: row;
-        }
-    }
-
-    /* Media Queries desde mobile hacia desktop - desktop*/
-    /* @media (min-width :1024px) {
-        .div-inicio {
-            display: inline-block;
-        }
-
-        .div-galeria {
-            display: flex;
-            padding: 5%;
-            margin-right: 4%;
-            justify-content: center;
-        }
-    } */
+}

@@ -30,7 +30,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">.</a>
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -76,56 +76,70 @@
         </nav>
     </header>
 
-    <main class="main-contacto">
-        <h1>CONTACTO</h1>
-        <section class="section-contacto">
+    <main class="main-contacto row">
+        <h1 class="p-3 text-decoration-underline text-center">CONTACTO</h1>
+        <section class="section-contacto col-sm-12 col-md-6">
+            <div>
                 <label for="nombre">Nombre y Apellido:</label>
-                <input type="text" name="" id="nombre" placeholder="José Perdomo">
+                <input class="text-center border-radius" type="text" name="" id="nombre" placeholder="José Perdomo">
+            </div>
+            <div>
                 <label for="número">Número de Teléfono:</label>
-                <input type="number" name="" id="número" placeholder="1156891425">
+                <input class="text-center border-radius" type="number" name="" id="número" placeholder="1156891425">
+            </div>
+            <div>
                 <label for="email">E-mail:</label>
-                <input type="email" name="" id="email" placeholder="ejemplo@gmail.com">
+                <input class="text-center border-radius" type="email" name="" id="email" placeholder="ejemplo@gmail.com">
+            </div>
+            <div>
                 <p>Seleccione un motivo de contacto:</p>
-                <select name="Motivo de Contacto" id="">
+                <select class="border-radius" name="Motivo de Contacto" id="">
                     <option value=""></option>
                     <option value="">Sugerencia</option>
                     <option value="">Queja</option>
                     <option value="">Otro</option>
                 </select>
+            </div>
+            <div>
                 <p>Dejanos tu mensaje:</p>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
+                <input class="border-radius" type="submit" value="Enviar">
+            </div>
         </section>
-        <!-- <section class="mapa-de-contacto">
-            <h2>Local</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.755976352095!2d-58.36733122427086!3d-34.635606459183
+        <section class="mapa-de-contacto col-sm-12 col-md-6">
+            <h2 class="text-decoration-underline text-center">Local</h2>
+            <iframe class="p-3 mapa-contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.755976352095!2d-58.36733122427086!3d-34.635606459183
             016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Arm
             ando-%20La%20Bombonera!5e0!3m2!1ses-419!2sar!4v1700815509151!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" a
             llowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section> -->
+        </section>
     </main>
 
     <footer>
         <section class="redes-sociales">
             <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"> <img src="./medios/icons8-whatsapp-48.png" alt=""></a>
         </section>
-        <section>
-            <div>
+        <section class="redes-sociales">
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"> <img src="./medios/icons8-whatsapp-48.png" alt=""></a>
+        </section>
+        <section class="p-3 footer-abajo row">
+            <div class="col-sm-12 col-md-3">
                 <h3>DIRECCIÓN</h3>
                 <p>Av Pte Juan Domingo Perón 1165.
-                <br>
-                Villa Sarmiento (1706) Morón
-                Buenos Aires, Argentina.</p>
+                    <br>
+                    Villa Sarmiento (1706) Morón
+                    Buenos Aires, Argentina.
+                </p>
             </div>
-            <div>
+            <div class="col-sm-12 col-md-3">
                 <h3>TELÉFONO</h3>
                 <p>011 4443 0063</p>
             </div>
-            <div>
+            <div class="col-sm-12 col-md-3">
                 <h3>E-MAIL</h3>
                 <p>info@marmoleriagaona.com</p>
             </div>
-            <div>
+            <div class="col-sm-12 col-md-3">
                 <h3>HORARIOS</h3>
                 <p>Lunes a Viernes: 7 a 17 hs.</p>
                 <b>Atención sólo con cita previa</b>
